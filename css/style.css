@@ -1,0 +1,75 @@
+/* estilos gerais */
+body{
+  margin-top: 50px;
+  background: #fafafa;
+}
+h1,h2,h3,h4{
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+h1{
+font-size: 32px;
+text-align: center;
+}
+h2{
+font-size: 24px;
+text-align: center;
+}
+h3{
+font-size: 16.5px;
+text-align: left;
+}
+h4{
+font-size: 15.28px;
+text-align: left;
+}
+
+p{
+  padding: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+}
+ul{
+  text-align: left;
+  margin-left: 10%;
+}
+article{
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+/* imagem */
+.imagem{
+  background:#4E5250 ;
+}
+
+.imagem img{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50%;
+}
+.res-comp{
+  background: #19243D ;
+  color: #fff;
+}
+.contato{
+  background: #ACADAF;
+}
+
+.titulo:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: #000;
+  margin-top: 50px;
+}
+
+.titulo h2{
+  opacity: 0.6;
+}
