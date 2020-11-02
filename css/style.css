@@ -35,6 +35,9 @@ ul{
   text-align: left;
   margin-left: 10%;
 }
+img{
+background-size: contain;
+}
 article{
   margin: 10px;
   padding: 15px;
@@ -43,6 +46,10 @@ article{
 /* imagem */
 .imagem{
   background:#4E5250 ;
+  max-width:100%;
+  height:auto;  
+  margin-bottom: 0;
+  
 }
 
 .imagem img{
@@ -52,13 +59,32 @@ article{
   height: 200px;
   background: #fff;
   border-radius: 50%;
+  
+}.triangulo{
+  position: relative;
+  z-index: -1;
+  margin: 0 10px;
 }
-.res-comp{
+ .triangulo img{
+  max-width: 100%;
+  background-size: cover; 
+   left: 0px;
+   top: 0px;
+  } 
+
+.resumo{
   background: #19243D ;
   color: #fff;
+  margin: -10px 10px 0 10px;
+}
+.comp-prof{
+  background: #19243D ;
+  color: #fff;
+  margin: 0 10px;
 }
 .contato{
   background: #ACADAF;
+  margin: -10px 10px 0 10px;
 }
 
 .titulo:after{
@@ -73,3 +99,11 @@ article{
 .titulo h2{
   opacity: 0.6;
 }
+
+/* .topico:after{
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #ACADAF;
+} */
